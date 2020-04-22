@@ -1,0 +1,72 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.18.3
+Date: 22.04.2020
+  Changes:
+    - Ported graphical changes to electric boilers MK2 to MK5.
+---------------------------------------------------------------------------------------------------
+Version: 0.18.2
+Date: 22.04.2020
+  Changes:
+    - Added graphics from user Autolykos based on Adamo's Gas Boiler Issue: #006
+    - Moved Electric Boiler to its own order category, should work better with other mods.
+---------------------------------------------------------------------------------------------------
+Version: 0.18.1
+Date: 31.03.2020
+  Bugfixes:
+    - Fixed issue #004 "Failed to load mods"
+    - Fixed issue #005 "missing item?"
+  Features:
+    - Ported to factorio v0.18
+---------------------------------------------------------------------------------------------------
+Version: 0.17.4
+Date: 22.04.2020
+  Mod:
+    - Merged changelog from version 0.18.2
+  Changes:
+    - Added graphics from user Autolykos based on Adamo's Gas Boiler Issue: #006
+    - Moved Electric Boiler to its own order category
+---------------------------------------------------------------------------------------------------
+Version: 0.17.3
+Date: 07.03.2019
+  Features:
+    - Fixed bob's compatibility issues.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+Date: 03.03.2019
+  Features:
+    - Fixed issues with wrong file uploading.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+Date: 27.02.2019
+  Features:
+    - Added Thumbnail to the release.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+Date: 27.02.2019
+  Features:
+    - Ported to factorio 0.17 version.
+---------------------------------------------------------------------------------------------------
+Version: 0.16.2
+Date: 25.09.2018
+  Features:
+    - fixed efficiency values of boilers, now they scale from 60% up to 80% (MK1, MK2, MK3, MK4)
+---------------------------------------------------------------------------------------------------
+Version: 0.16.1
+Date: 14.05.2018
+  Features:
+    - Updated to Factorio v0.16.x
+    - added compatibility with bob's boilers, now you have MK2, MK3 and MK4 electric boilers that depends on bob's boilers. Needs balancing.
+---------------------------------------------------------------------------------------------------
+Version: 0.15.2
+Date: 22.05.2017
+  Bugfixes:
+    - When you mine the electric boiler, it'll give you back another electric boiler instead of a regular boiler. (oopsy)
+---------------------------------------------------------------------------------------------------
+Version: 0.15.1
+Date: 19.05.2017
+  Bugfixes:
+    - Factorio update to 0.15.12 fixed the energy usage of the item its now working as intended
+---------------------------------------------------------------------------------------------------
+Version: 0.15.0
+Date: 14.05.2017
+ - Initial Release
