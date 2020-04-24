@@ -8,7 +8,7 @@ if bobmods.power then
         name = "electric-boiler-2",
         minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-2"},
         energy_consumption = "3.2MW",
-		icon_size = 64,
+		icon_size = 32,
         energy_source = {
 			effectivity = 0.6,
 			type = "electric",
@@ -76,7 +76,7 @@ if bobmods.power then
         name = "electric-boiler-3",
         minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-3"},
         energy_consumption = "5.4MW",
-		icon_size = 64,
+		icon_size = 32,
         energy_source = {
           effectivity = 0.7,
           type = "electric",
@@ -145,7 +145,7 @@ if bobmods.power then
         name = "electric-boiler-4",
         minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-4"},
 		energy_consumption = "7.2MW",
-		icon_size = 64,
+		icon_size = 32,
         energy_source = {
           effectivity = 0.8,
           type = "electric",
@@ -213,7 +213,7 @@ if bobmods.power then
         name = "electric-boiler-5",
         minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-5"},
 		energy_consumption = "9MW",
-		icon_size = 64,
+		icon_size = 32,
         energy_source = {
           effectivity = 1.0,
           type = "electric",
