@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 14.08.2020
+  Changes:
+    - Ported mod to factorio v1.0
+    - Added setting property to change the power consumption/production of the boiler in MW (issue #009)
+---------------------------------------------------------------------------------------------------
 Version: 0.18.4
 Date: 24.04.2020
   Bugfixes:
