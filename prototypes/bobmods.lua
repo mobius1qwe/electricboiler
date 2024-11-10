@@ -5,17 +5,17 @@ if bobmods.power then
     -- itementity
     local entity_boiler_2 = table.deepcopy(data.raw["boiler"]["electric-boiler"])
     local entity_override_2 = {
-        name = "electric-boiler-2",
-        minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-2"},
-        energy_consumption = "3.2MW",
-		icon_size = 32,
-        energy_source = {
-			effectivity = 0.6,
-			type = "electric",
-			input_priority = "secondary",
-			usage_priority = "secondary-input",
-			emissions = 0.1 / 6.5
-        }
+      name = "electric-boiler-2",
+      minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-2"},
+      energy_consumption = "3.2MW",
+      icon_size = 32,
+      energy_source = {
+        effectivity = 0.6,
+        type = "electric",
+        input_priority = "secondary",
+        usage_priority = "secondary-input",
+        emissions_per_minute = {pollution = 60*0.1/6.5}
+      }
     }
 
       -- itemtechnology
@@ -34,10 +34,10 @@ if bobmods.power then
         enabled = "false",
         ingredients =
         {
-          {"boiler-2", 1},
-          {"advanced-circuit", 1},
+          {type = "item", name = "boiler-2", amount = 1},
+          {type = "item", name = "advanced-circuit", amount = 1},
         },
-        result = "electric-boiler-2"
+        results = {{type = "item", name = "electric-boiler-2", amount = 1}}
       }
 
       -- itemitem
@@ -82,7 +82,7 @@ if bobmods.power then
           type = "electric",
           input_priority = "secondary",
           usage_priority = "secondary-input",
-          emissions = 0.1 / 4.5
+          emissions_per_minute = {pollution = 60*0.1/4.5}
           }
         }
 
@@ -102,11 +102,11 @@ if bobmods.power then
         enabled = "false",
         ingredients =
         {
-          {"boiler-3", 1},
-          {"steel-plate", 5},
-          {"processing-unit", 5}
+          {type = "item", name = "boiler-3", amount = 1},
+          {type = "item", name = "steel-plate", amount = 5},
+          {type = "item", name = "processing-unit", amount = 5}
         },
-        result = "electric-boiler-3"
+        results = {{type = "item", name = "electric-boiler-3", amount = 1}}
       }
 
       -- itemitem
@@ -144,14 +144,14 @@ if bobmods.power then
       local entity_override_4 = {
         name = "electric-boiler-4",
         minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler-4"},
-		energy_consumption = "7.2MW",
-		icon_size = 32,
+		    energy_consumption = "7.2MW",
+		    icon_size = 32,
         energy_source = {
           effectivity = 0.8,
           type = "electric",
           input_priority = "secondary",
           usage_priority = "secondary-input",
-          emissions = 0.1 / 2.5
+          emissions_per_minute = {pollution = 60*0.1/2.5}
           }
         }
 
@@ -171,10 +171,10 @@ if bobmods.power then
         enabled = "false",
         ingredients =
         {
-          {"boiler-4", 1},
-          {"advanced-processing-unit", 5},
+          {type = "item", name = "boiler-4", amount = 1},
+          {type = "item", name = "advanced-processing-unit", amount = 5},
         },
-        result = "electric-boiler-4"
+        results = {{type = "item", name = "electric-boiler-4", amount = 1}}
       }
 
       -- itemitem
@@ -219,7 +219,7 @@ if bobmods.power then
           type = "electric",
           input_priority = "secondary",
           usage_priority = "secondary-input",
-          emissions = 0.1 / 1.0
+          emissions_per_minute = {pollution = 60*0.1/1.0}
           }
         }
 
@@ -239,10 +239,10 @@ if bobmods.power then
         enabled = "false",
         ingredients =
         {
-          {"boiler-5", 1},
-          {"advanced-processing-unit", 5},
+          {type = "item", name = "boiler-5", amount = 1},
+          {type = "item", name = "advanced-processing-unit", amount = 5},
         },
-        result = "electric-boiler-5"
+        results = {{type = "item", name = "electric-boiler-5", amount = 1}}
       }
 
       -- itemitem

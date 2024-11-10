@@ -1,12 +1,12 @@
 local recipe_boiler = table.deepcopy(data.raw["recipe"]["boiler"])
 local recipe_override = {
   name = "electric-boiler",
-  enabled = "false",
+  enabled = false,
   ingredients = {
-    {"boiler", 1},
-    {"electronic-circuit", 1}
+    {type = "item", name = "boiler", amount = 1},
+    {type = "item", name = "electronic-circuit", amount = 1}
   },
-  result = "electric-boiler"
+  results = {{type = "item", name = "electric-boiler", amount = 1}}
 }
 
 for k,v in pairs(recipe_override) do
