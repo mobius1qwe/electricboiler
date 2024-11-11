@@ -14,7 +14,7 @@ local entityoverride = {
           light_intensity_to_size_coefficient = 1
       }
   },
-  icon = "__electric-boiler__/graphics/icons/electric-boiler.png",
+  icon = "__electricboiler__/graphics/icons/electric-boiler.png",
   icon_size = 32,
   fast_replaceable_group = "boiler",
   fire_flicker_enabled = false,
@@ -25,10 +25,10 @@ for k,v in pairs(entityoverride) do
   entityboiler[k]=v
 end
 
-entityboiler.pictures.north.fire_glow.filename = "__electric-boiler__/graphics/entity/hr-electric-boiler-N-light.png"
-entityboiler.pictures.south.fire_glow.filename = "__electric-boiler__/graphics/entity/hr-electric-boiler-S-light.png"
-entityboiler.pictures.east.fire_glow.filename = "__electric-boiler__/graphics/entity/hr-electric-boiler-E-light.png"
-entityboiler.pictures.west.fire_glow.filename = "__electric-boiler__/graphics/entity/hr-electric-boiler-W-light.png"
+entityboiler.pictures.north.fire_glow.filename = "__electricboiler__/graphics/entity/hr-electric-boiler-N-light.png"
+entityboiler.pictures.south.fire_glow.filename = "__electricboiler__/graphics/entity/hr-electric-boiler-S-light.png"
+entityboiler.pictures.east.fire_glow.filename = "__electricboiler__/graphics/entity/hr-electric-boiler-E-light.png"
+entityboiler.pictures.west.fire_glow.filename = "__electricboiler__/graphics/entity/hr-electric-boiler-W-light.png"
 entityboiler.pictures.north.fire_glow.apply_runtime_tint = true
 entityboiler.pictures.south.fire_glow.apply_runtime_tint = true
 entityboiler.pictures.east.fire_glow.apply_runtime_tint = true
