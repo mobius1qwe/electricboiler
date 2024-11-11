@@ -2,13 +2,12 @@ local entityboiler = table.deepcopy(data.raw["boiler"]["boiler"])
 local entityoverride = {
   name = "electric-boiler",
   energy_consumption = settings.startup["power-capacity"].value .. "MW",
-  effectivity = settings.startup["efficiency"].value / 10,
   minable = {hardness = 0.2, mining_time = 0.5, result = "electric-boiler"},
-  energy_source =
-  {
+  energy_source = {
       type = "electric",
       input_priority = "secondary",
       usage_priority = "secondary-input",
+      effectivity = settings.startup["efficiency"].value / 100,
       light_flicker = {
           color = {r = 0.5, g = 1, b = 1, a = 0.5},
           minimum_light_size = 0.1,
