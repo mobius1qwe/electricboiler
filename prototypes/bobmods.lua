@@ -1,6 +1,6 @@
 if bobmods.power then
   if bobmods.electronics then
-    if data.raw["boiler"]["boiler-2"].name then
+    if data.raw["boiler"]["bob-boiler-2"].name then
     -- boiler MK2
     -- itementity
     local entity_boiler_2 = table.deepcopy(data.raw["boiler"]["electric-boiler"])
@@ -28,20 +28,20 @@ if bobmods.power then
       table.insert(technology_override_2.effects, {type = "unlock-recipe", recipe = "electric-boiler-2"})
 
       -- itemrecipe
-      local recipe_boiler_2 = table.deepcopy(data.raw["recipe"]["boiler-2"])
+      local recipe_boiler_2 = table.deepcopy(data.raw["recipe"]["bob-boiler-2"])
       local recipe_override_2 = {
         name = "electric-boiler-2",
-        enabled = "false",
+        enabled = false,
         ingredients =
         {
-          {type = "item", name = "boiler-2", amount = 1},
+          {type = "item", name = "bob-boiler-2", amount = 1},
           {type = "item", name = "advanced-circuit", amount = 1},
         },
         results = {{type = "item", name = "electric-boiler-2", amount = 1}}
       }
 
       -- itemitem
-      local item_boiler_2 = table.deepcopy(data.raw["item"]["boiler-2"])
+      local item_boiler_2 = table.deepcopy(data.raw["item"]["bob-boiler-2"])
       local item_override_2 = {
         place_result = "electric-boiler-2",
         name = "electric-boiler-2",
@@ -68,7 +68,7 @@ if bobmods.power then
       data:extend({entity_boiler_2, recipe_boiler_2, item_boiler_2, technology_boiler_2})
     end
 
-    if data.raw["boiler"]["boiler-3"].name then
+    if data.raw["boiler"]["bob-boiler-3"].name then
       -- boiler MK3
       -- itementity
       local entity_boiler_3 = table.deepcopy(data.raw["boiler"]["electric-boiler"])
@@ -96,13 +96,13 @@ if bobmods.power then
       table.insert(technology_override_3.effects, {type = "unlock-recipe", recipe = "electric-boiler-3"})
 
       -- itemrecipe
-      local recipe_boiler_3 = table.deepcopy(data.raw["recipe"]["boiler-3"])
+      local recipe_boiler_3 = table.deepcopy(data.raw["recipe"]["bob-boiler-3"])
       local recipe_override_3 = {
         name = "electric-boiler-3",
-        enabled = "false",
+        enabled = false,
         ingredients =
         {
-          {type = "item", name = "boiler-3", amount = 1},
+          {type = "item", name = "bob-boiler-3", amount = 1},
           {type = "item", name = "steel-plate", amount = 5},
           {type = "item", name = "processing-unit", amount = 5}
         },
@@ -110,7 +110,7 @@ if bobmods.power then
       }
 
       -- itemitem
-      local item_boiler_3 = table.deepcopy(data.raw["item"]["boiler-3"])
+      local item_boiler_3 = table.deepcopy(data.raw["item"]["bob-boiler-3"])
       local item_override_3 = {
         place_result = "electric-boiler-3",
         name = "electric-boiler-3",
@@ -137,7 +137,7 @@ if bobmods.power then
       data:extend({entity_boiler_3, recipe_boiler_3, item_boiler_3, technology_boiler_3})
     end
 
-    if data.raw["boiler"]["boiler-4"].name then
+    if data.raw["boiler"]["bob-boiler-4"].name then
       -- boiler MK4
       -- itementity
       local entity_boiler_4 = table.deepcopy(data.raw["boiler"]["electric-boiler"])
@@ -165,20 +165,20 @@ if bobmods.power then
       table.insert(technology_override_4.effects, {type = "unlock-recipe", recipe = "electric-boiler-4"})
 
       -- itemrecipe
-      local recipe_boiler_4 = table.deepcopy(data.raw["recipe"]["boiler-4"])
+      local recipe_boiler_4 = table.deepcopy(data.raw["recipe"]["bob-boiler-4"])
       local recipe_override_4 = {
         name = "electric-boiler-4",
-        enabled = "false",
+        enabled = false,
         ingredients =
         {
-          {type = "item", name = "boiler-4", amount = 1},
-          {type = "item", name = "advanced-processing-unit", amount = 5},
+          {type = "item", name = "bob-boiler-4", amount = 1},
+          {type = "item", name = "bob-advanced-processing-unit", amount = 5},
         },
         results = {{type = "item", name = "electric-boiler-4", amount = 1}}
       }
 
       -- itemitem
-      local item_boiler_4 = table.deepcopy(data.raw["item"]["boiler-4"])
+      local item_boiler_4 = table.deepcopy(data.raw["item"]["bob-boiler-4"])
       local item_override_4 = {
         place_result = "electric-boiler-4",
         name = "electric-boiler-4",
@@ -205,7 +205,7 @@ if bobmods.power then
       data:extend({entity_boiler_4, recipe_boiler_4, item_boiler_4, technology_boiler_4})
     end
 
-    if data.raw["boiler"]["boiler-5"].name then
+    if data.raw["boiler"]["bob-boiler-5"].name then
       -- boiler MK5
       -- itementity
       local entity_boiler_5 = table.deepcopy(data.raw["boiler"]["electric-boiler"])
@@ -233,20 +233,20 @@ if bobmods.power then
       table.insert(technology_override_5.effects, {type = "unlock-recipe", recipe = "electric-boiler-5"})
 
       -- itemrecipe
-      local recipe_boiler_5 = table.deepcopy(data.raw["recipe"]["boiler-5"])
+      local recipe_boiler_5 = table.deepcopy(data.raw["recipe"]["bob-boiler-5"])
       local recipe_override_5 = {
         name = "electric-boiler-5",
-        enabled = "false",
+        enabled = false,
         ingredients =
         {
-          {type = "item", name = "boiler-5", amount = 1},
-          {type = "item", name = "advanced-processing-unit", amount = 5},
+          {type = "item", name = "bob-boiler-5", amount = 1},
+          {type = "item", name = "bob-advanced-processing-unit", amount = 5},
         },
         results = {{type = "item", name = "electric-boiler-5", amount = 1}}
       }
 
       -- itemitem
-      local item_boiler_5 = table.deepcopy(data.raw["item"]["boiler-5"])
+      local item_boiler_5 = table.deepcopy(data.raw["item"]["bob-boiler-5"])
       local item_override_5 = {
         place_result = "electric-boiler-5",
         name = "electric-boiler-5",
