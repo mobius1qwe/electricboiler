@@ -8,7 +8,7 @@ data:extend(
     default_value = 1.8,
     maximum_value = 100000,
     per_user = false,
-    order=a
+    order="a"
   },
   {
     type = "int-setting",
@@ -18,6 +18,6 @@ data:extend(
     default_value = 95,
     maximum_value = 100,
     per_user = false,
-    order=b
+    order="b"
   }  
 })

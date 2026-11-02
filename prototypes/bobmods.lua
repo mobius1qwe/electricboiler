@@ -1,6 +1,14 @@
+local function has_bob_boiler(level)
+  local name = "bob-boiler-" .. level
+  return data.raw.boiler[name]
+    and data.raw.item[name]
+    and data.raw.recipe[name]
+    and data.raw.technology[name]
+end
+
 if bobmods.power then
   if bobmods.electronics then
-    if data.raw["boiler"]["bob-boiler-2"].name then
+    if has_bob_boiler(2) then
     -- boiler MK2
     -- itementity
     local entity_boiler_2 = table.deepcopy(data.raw["boiler"]["electric-boiler"])
@@ -68,7 +76,7 @@ if bobmods.power then
       data:extend({entity_boiler_2, recipe_boiler_2, item_boiler_2, technology_boiler_2})
     end
 
-    if data.raw["boiler"]["bob-boiler-3"].name then
+    if has_bob_boiler(3) then
       -- boiler MK3
       -- itementity
       local entity_boiler_3 = table.deepcopy(data.raw["boiler"]["electric-boiler"])
@@ -137,7 +145,7 @@ if bobmods.power then
       data:extend({entity_boiler_3, recipe_boiler_3, item_boiler_3, technology_boiler_3})
     end
 
-    if data.raw["boiler"]["bob-boiler-4"].name then
+    if has_bob_boiler(4) then
       -- boiler MK4
       -- itementity
       local entity_boiler_4 = table.deepcopy(data.raw["boiler"]["electric-boiler"])
@@ -205,7 +213,7 @@ if bobmods.power then
       data:extend({entity_boiler_4, recipe_boiler_4, item_boiler_4, technology_boiler_4})
     end
 
-    if data.raw["boiler"]["bob-boiler-5"].name then
+    if has_bob_boiler(5) then
       -- boiler MK5
       -- itementity
       local entity_boiler_5 = table.deepcopy(data.raw["boiler"]["electric-boiler"])

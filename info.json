@@ -1,12 +1,12 @@
 {
 	"name": "electricboiler",
-	"version": "2.0.1",
+	"version": "2.1.0",
 	"title": "Electric Boiler",
 	"author": "Mobius1",
 	"description": "Adds an Electric Boiler building, compatible with bob's mods. Blue glow based on ElAdamo's Gas Boiler.",
-	"factorio_version": "2.0",
+	"factorio_version": "2.1",
 	"dependencies": [
-		"base >= 0.15.1",
+		"base >= 2.1.0",
 		"? bobpower >= 0.16.4",
 		"? boblibrary >= 0.16.5",
 		"? bobelectronics >= 0.16.5",
